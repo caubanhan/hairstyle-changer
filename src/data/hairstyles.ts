@@ -1,0 +1,28 @@
+import type { Hairstyle } from '../types';
+
+export const hairstyles: Hairstyle[] = [
+  { id: 'pixie-cut', name: 'Pixie Cut', gender: 'female', length: 'short', imageUrl: 'https://picsum.photos/seed/pixie-cut/200/270' },
+  { id: 'sleek-bob', name: 'Sleek Bob', gender: 'female', length: 'short', imageUrl: 'https://picsum.photos/seed/sleek-bob/200/270' },
+  { id: 'blunt-bangs', name: 'Blunt Bangs', gender: 'female', length: 'short', imageUrl: 'https://picsum.photos/seed/blunt-bangs/200/270' },
+  { id: 'caesar-cut-female', name: 'Caesar Cut', gender: 'female', length: 'short', imageUrl: 'https://picsum.photos/seed/caesar-cut-female/200/270' },
+  { id: 'textured-quiff', name: 'Textured Quiff', gender: 'female', length: 'short', imageUrl: 'https://picsum.photos/seed/textured-quiff/200/270' },
+  { id: 'textured-crop', name: 'Textured Crop', gender: 'female', length: 'short', imageUrl: 'https://picsum.photos/seed/textured-crop/200/270' },
+  { id: 'crew-cut', name: 'Crew Cut', gender: 'all', length: 'short', imageUrl: 'https://picsum.photos/seed/crew-cut/200/270' },
+  { id: 'modern-bowl-cut', name: 'Modern Bowl Cut', gender: 'female', length: 'short', imageUrl: 'https://picsum.photos/seed/modern-bowl-cut/200/270' },
+  { id: 'flat-top', name: 'Flat Top', gender: 'all', length: 'short', imageUrl: 'https://picsum.photos/seed/flat-top/200/270' },
+  { id: 'curtain-bangs', name: 'Curtain Bangs', gender: 'female', length: 'medium', imageUrl: 'https://picsum.photos/seed/curtain-bangs/200/270' },
+  { id: 'shag-cut', name: 'Shag Cut', gender: 'female', length: 'medium', imageUrl: 'https://picsum.photos/seed/shag-cut/200/270' },
+  { id: 'long-bob-lob', name: 'Long Bob / Lob', gender: 'female', length: 'medium', imageUrl: 'https://picsum.photos/seed/long-bob-lob/200/270' },
+  { id: 'wolf-cut', name: 'Wolf Cut', gender: 'female', length: 'long', imageUrl: 'https://picsum.photos/seed/wolf-cut/200/270' },
+  { id: 'butterfly-cut', name: 'Butterfly Cut', gender: 'female', length: 'long', imageUrl: 'https://picsum.photos/seed/butterfly-cut/200/270' },
+  { id: 'modern-mullet', name: 'Modern Mullet', gender: 'female', length: 'medium', imageUrl: 'https://picsum.photos/seed/modern-mullet/200/270' },
+  { id: 'layered-cut', name: 'Layered Cut', gender: 'female', length: 'long', imageUrl: 'https://picsum.photos/seed/layered-cut/200/270' },
+  { id: 'beach-waves', name: 'Beach Waves', gender: 'female', length: 'long', imageUrl: 'https://picsum.photos/seed/beach-waves/200/270' },
+  { id: 'straight-sleek', name: 'Straight & Sleek', gender: 'female', length: 'long', imageUrl: 'https://picsum.photos/seed/straight-sleek/200/270' },
+  { id: 'buzz-cut', name: 'Buzz Cut', gender: 'male', length: 'short', imageUrl: 'https://picsum.photos/seed/buzz-cut/200/270' },
+  { id: 'fade-cut', name: 'Fade Cut', gender: 'male', length: 'short', imageUrl: 'https://picsum.photos/seed/fade-cut/200/270' },
+  { id: 'undercut', name: 'Undercut', gender: 'male', length: 'short', imageUrl: 'https://picsum.photos/seed/undercut/200/270' },
+  { id: 'pompadour', name: 'Pompadour', gender: 'male', length: 'medium', imageUrl: 'https://picsum.photos/seed/pompadour/200/270' },
+  { id: 'slick-back', name: 'Slick Back', gender: 'male', length: 'medium', imageUrl: 'https://picsum.photos/seed/slick-back/200/270' },
+  { id: 'french-crop', name: 'French Crop', gender: 'male', length: 'short', imageUrl: 'https://picsum.photos/seed/french-crop/200/270' },
+];
